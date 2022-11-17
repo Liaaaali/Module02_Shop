@@ -1,0 +1,21 @@
+$bg: #eee;
+
+.box {
+    background-color: $bg;
+
+    &-title {
+        color: #f00;
+
+    }
+
+    &-image {
+        max-width: 200px;
+    }
+
+    &-svg {
+        fill: blueviolet;
+        &:hover {
+            fill: gold;
+        }
+    }
+}
