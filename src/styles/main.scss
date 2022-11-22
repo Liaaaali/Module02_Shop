@@ -1,21 +1,72 @@
-$bg: #eee;
-
-.box {
-    background-color: $bg;
-
-    &-title {
-        color: #f00;
-
+$text: #27300f;
+$orange: #d26a22;
+$white: #fff;
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__nav {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+        gap: 48px;
     }
 
-    &-image {
-        max-width: 200px;
+    &__nav a {
+        text-decoration: none;
     }
 
-    &-svg {
-        fill: blueviolet;
+    &__link {
+        font-size: 16px;
+        color: $text;
         &:hover {
-            fill: gold;
+            color: $orange;
+            text-decoration: none;
         }
     }
+
+    &__tel {
+        font-size: 16px;
+        color: $text;
+        text-decoration: none;
+        &:hover {
+            color: $orange;
+        }
+    }
+
+    &__cart {
+        display: block;
+        background-image: url(../images/cart.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 17px 15px;
+    }
+
+    &__counter {
+        font-size: 8px;
+        color: $white;
+        position: absolute;
+        right: 10px;
+        top: 6px;
+    }
+    
+}
+
+.logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 123px;
+    height: 32px;;
+}
+
+.header__item {
+
 }
