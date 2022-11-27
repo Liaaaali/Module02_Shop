@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.5",
-    "html-webpack-plugin": "^5.5.0"
+    "html-webpack-plugin": "^5.5.0",
+    "normalize.css": "^8.0.1"
   }
 }
