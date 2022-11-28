@@ -111,6 +111,22 @@ body {
     &__link {
         margin-top: 6rem;
     }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__cover {
+        flex-basis: 763px;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
 }
 
 .title {
